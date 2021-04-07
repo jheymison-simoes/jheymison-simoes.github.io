@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <div class="container-header">
         <nav class="menu">
             <ul>
@@ -50,6 +49,46 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="menu-icon" onclick="openCloseMenu()">
+            <span class="material-icons">
+                menu
+            </span>
+        </div>
+
+        <div class="menu-responsive" id="menu-responsive" style="top: -170px">
+            <div class="icon-close" onclick="openCloseMenu()">
+                <span class="material-icons">
+                    close
+                </span>
+            </div>
+            <ul>
+                <li>
+                    <span class="material-icons">
+                        info
+                    </span>
+                    <a href="#Sobre">Sobre</a>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        work
+                    </span>
+                    <a href="#Projetos">Projetos</a>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        contact_support
+                    </span>
+                    <a href="#Contatos">Contatos</a>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        description
+                    </span>
+                    <a href="#Curriculo">Currículo</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="sobre" id="Sobre">
             <div class="background-img"></div>
